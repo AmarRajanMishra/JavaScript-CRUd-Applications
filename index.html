@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD Application</h1>
+        <div>
+            <form action="" onsubmit="onFormSubmit()">
+                <div>
+                    <input type="text" name="fname" id="fname" placeholder="Enter Your Name" autocomplete="off">
+                </div>
+                <div>
+                    <input type="text" name="femail" id="femail" placeholder="Enter Your Email">
+                </div>
+                <div>
+                    <input type="text" name="fnumber" id="fnumber" placeholder="Enter Your Number">
+                </div>
+                <div>
+                    <input type="text" name="fmessage" id="fmessage" placeholder="Enter Your Message">
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div id="tabledata">
+            <table id="store">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Number</th>
+                        <th scope="col">Message</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Show data Here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

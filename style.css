@@ -1,0 +1,11 @@
+.container{
+    text-align: center;
+}
+.tabledata{
+    margin-left: 45%;
+}
+input{
+    margin: 10px;
+    height: 25px;
+    width: 300px;
+}
